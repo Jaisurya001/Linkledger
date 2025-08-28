@@ -590,3 +590,4 @@ function ClaimCard({
       </Card>
     </motion.div>
   )
+}
