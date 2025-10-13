@@ -260,7 +260,7 @@ const [selectedItem, setSelectedItem] = useState<any>(null)
         {showClaimModal && (
         <Dialog open={showClaimModal} onOpenChange={setShowClaimModal}>
           <DialogContent
-            className="max-w-3xl w-full max-h-[90vh] overflow-hidden flex flex-col sm:max-w-[90vw] [&>button.absolute]:hidden">
+            className="max-w-3xl w-full h-[90vh] flex flex-col sm:max-w-[90vw] overflow-hidden [&>button.absolute]:hidden">
             <motion.div initial={{ opacity: 0, scale: 0.9, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }} transition={{ duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
               className="flex flex-col h-full">
